@@ -1,0 +1,22 @@
+.new-blog {
+  text-shadow: 0px 0px 8px #505050;
+}
+
+.blog-card {
+  border: none;
+  margin: 20px 10px;
+  transition: 0.3s;
+  height: 210px;
+}
+
+.blog-card:hover {
+  margin: 15px 15px 15px 5px;
+  box-shadow: 5px 5px 20px #505050;
+}
+
+.content-text-truncate {
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}

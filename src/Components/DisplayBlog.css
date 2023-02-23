@@ -1,0 +1,36 @@
+.display-blog-button {
+    border: none;
+}
+
+.like-btn:hover {
+    color: skyblue;
+}
+
+.edit-button:hover {
+    color: lightgreen;
+}
+
+.delete-button:hover {
+    color: red;
+}
+
+.back-btn:hover {
+    color: yellowgreen;
+}
+
+.display-tags {
+    position: absolute;
+    bottom: 10px;
+}
+
+.full-blog-card {
+    text-align: justify;
+    margin: 40px;
+    min-height: 465px;
+    padding: 30px;
+}
+
+.action-btns{
+    float: right;
+    margin-top: 5px;
+}
