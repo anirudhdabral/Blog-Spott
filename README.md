@@ -1,20 +1,20 @@
 # Read this first about using BLOG SPOTT
 
-### Blog data is stored in localstorage of browser
+## Blog data is stored in localstorage of browser
 
 When you first run the application, no blogs are stored at first.
 A guide will be displayed to help you in creating a blog.
 
-### Login details (id & password) are hardcoded and are stored in src/login-details.js
+## Login details (id & password) are hardcoded and are stored in src/login-details.js
 
 You can add more users if you want or change the existing users.
 
-### Do not refresh the browser after logging in
+## Do not refresh the browser after logging in
 
 User is logged-in or not, is stored in redux store, so refreshing the browser will reset the redux store (not logged in).
 If user is not logged in, every page will redirect to Login page and is only shown after user logs in successfully.
 
-### Context API is used to display message in bottom-right of some pages
+## Context API is used to display message in bottom-right of some pages
 
 A message is shown about the maker of this web-app on bottom-right corner of home (if no blogs are present), add and edit page.
 
